@@ -1,0 +1,35 @@
+.reviews {
+  padding: 100px 0;
+}
+
+.review-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  justify-content: center;
+}
+
+.review-cards__item {
+  color: #fff;
+  background-color: #000000;
+  border-radius: 32px;
+  width: 32%;
+  padding: 54px 60px 51px 50px;
+}
+
+.review-rating {
+  margin-bottom: 21px;
+}
+
+.review-text {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 19px;
+}
+
+.review-author {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  line-height: 28.8px;
+}
