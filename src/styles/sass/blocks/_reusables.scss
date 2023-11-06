@@ -1,0 +1,42 @@
+.platforms {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.button {
+  background-color: #118da8;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  line-height: 27px;
+  padding: 12px 22px;
+  margin-top: 27px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(17, 141, 198);
+  }
+}
+
+.section-info {
+  margin-bottom: 18px;
+}
+
+.section-info__first {
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 0px 16px;
+  background-color: #191919;
+  border-radius: 6px;
+  margin-bottom: 48px;
+  display: inline-block;
+}
+
+.section-info__second {
+  color: #118da8;
+  font-size: 17px;
+  line-height: 27px;
+}

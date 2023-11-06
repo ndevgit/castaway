@@ -1,0 +1,64 @@
+.episodes {
+  padding: 93px 0px 160px;
+}
+
+.episodes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+.episodes-header__title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 6.3px;
+}
+
+.episodes-sections__section {
+  background-color: #000000;
+  padding: 40px;
+  border-radius: 32px;
+  margin-bottom: 60px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section-content {
+  display: flex;
+}
+
+.section-content__left {
+  width: 67%;
+}
+
+.section-image {
+  max-width: 100%;
+}
+
+.section-content__right {
+  padding: 7px 0px 0px 53px;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70.4px;
+  letter-spacing: 5.56px;
+  margin-bottom: 27px;
+}
+
+.section-descr {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.button__section {
+  margin-top: 18px;
+}

@@ -1,0 +1,38 @@
+.header {
+  padding: 46px 0;
+}
+
+.container__header {
+  max-width: 1440px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-block {
+  width: 160px;
+}
+
+.header-content__logo {
+  max-width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-list__item {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  &:hover {
+    color: #118da8;
+  }
+}
